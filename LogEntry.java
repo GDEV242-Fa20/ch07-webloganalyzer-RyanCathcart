@@ -64,6 +64,33 @@ public class LogEntry implements Comparable<LogEntry>
     }
     
     /**
+     * Return the year.
+     * @return The year field from the log line.
+     */
+    public int getYear()
+    {
+        return dataValues[YEAR];
+    }
+    
+    /**
+     * Return the month.
+     * @return The month field from the log line.
+     */
+    public int getMonth()
+    {
+        return dataValues[MONTH];
+    }
+    
+    /**
+     * Return the day.
+     * @return The day field from the log line.
+     */
+    public int getDay()
+    {
+        return dataValues[DAY];
+    }
+    
+    /**
      * Return the hour.
      * @return The hour field from the log line.
      */
